@@ -1,0 +1,86 @@
+/* hellow im farhan */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.2%;
+}
+#logo {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 51%;
+}
+
+
+
+#logo-text {
+    font-size: 3rem;
+    margin-left: .9rem;
+    margin-right: 2rem;
+    line-height: 9rem;
+    font-weight: bold;
+}
+
+
+
+#nav {
+    background: #FDFAFA;
+    box-shadow: 0 .1rem 1rem 0rem #A26FFE;
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 2;
+    height: 10rem;
+}
+
+
+
+#menu {
+    color: #721CEF;
+    font-size: 3rem;
+}
+
+
+#search-box {
+    margin-left: 9rem !important;
+
+}
+
+
+
+@media (max-width: 800px) {
+    html{
+        font-size: 55%;
+    }
+   #search-box {
+        margin-left: 0rem !important;
+    }
+
+    #ul {
+        display: block !important;
+    }
+    .box {
+        margin-top: 1rem !important;
+    }
+
+}
+
+.slider {
+    box-shadow: 0 .4rem 1rem 0rem #A26FFE;
+}
+
+.box {
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+}
+
+.contentbox {
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+    background: linear-gradient(#4500FF, #8900FF);
+    border-radius: 3rem
+}
